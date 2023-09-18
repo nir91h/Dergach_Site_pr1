@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О фильме</title>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+        body {
+            background-image: url(./assets/img/bg.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            line-height: 20px;
+        }
+
+        .site_container {
+            margin: 0 auto;
+            max-width: 1500px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 50px;
+            margin-bottom: 30px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #FFFFFF80;
+            font-size: 20px;
+        }
+
+        header nav a:hover {
+            color: #ffffff;
+            transition: 0.5s;
+        }
+
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .text_one h2 {
+            font-size: 46px;
+            color: #ffffffd6;
+            margin-top: 0;
+        }
+
+        .text_one p {
+            font-size: 16px;
+            color: #ffffffd6;
+            width: 380px;
+        }
+
+        .colon {
+            display: flex;
+            gap: 50px;
+            margin-bottom: 10px;
+        }
+
+        .colon .one {
+            width: 130px;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+        }
+
+        .text_two {
+            display: flex;
+            color: #ffffff;
+            gap: 30px;
+        }
+
+        .text_two img {
+            width: 390px;
+        }
+
+        .text_two p {
+            width: 100px;
+            margin-top: 0;
+        }
+    </style>
+    <div class="site_container">
+        <header>
+            <a href="./index.html"><img src="./assets/img/logo.png"></a>
+            <nav>
+                <a href="./pagetwo.html">о фильме</a>
+                <a href="#">трейлер</a>
+                <a href="#">актеры</a>
+                <a href="#">премьера</a>
+            </nav>
+        </header>
+        <main>
+            <div class="text_one">
+                <h2>О фильме</h2>
+                <p>В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из
+                    комиксов Marvel.</p> <br>
+                <p><b>В главных ролях</b></p>
+                <div class="colon">
+                    <p class="one">Том Харди
+                        Мишель Уильямс
+                        Вуди Харрельсон
+                        Наоми Харрис
+                        Стивен Грэм</p>
+                    <p>
+                        Рейд Скотт <br>
+                        Эд Кейр <br>
+                        Шон Делани <br>
+                        Уилльям Барбо <br>
+                        Пегги Лу
+                    </p>
+                </div>
+                <img src="./assets/img/video.png" alt="">
+            </div>
+            <div class="text_two">
+                <img src="./assets/img/poster.jpg" alt="">
+                <p>
+                    <b>Режиссер </b>
+                    Энди Серкис <br> <br>
+                    <b> Сценарий</b>
+                    Келли Марсел
+                    Том Харди <br> <br>
+                    <b>Продюсеры</b>
+                    Ави Арад
+                    Том Харди
+                    Келли Марсел
+                </p>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
